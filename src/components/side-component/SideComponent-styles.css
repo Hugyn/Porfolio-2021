@@ -52,6 +52,7 @@ SOCIAL MEDIA LINKS
     bottom:0;
     margin: 50px auto;
     padding: 5px;
+    letter-spacing: 0.08em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
@@ -63,7 +64,29 @@ SOCIAL MEDIA LINKS
     color: var(--cream);
     margin: 12px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 0.08em;
 }
+
+/* ///////////
+HUGO NATHAN
+/////////// */
+
+.hugo-nathan{
+    margin: 15vmin 14.5vw;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-family: 'Roboto Mono', monospace;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.295);
+    font-weight: 300;
+    font-size: 8vw;
+    letter-spacing: 0.08em;
+}
+
+.huna{
+    color: var(--cream);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.295);
+}
+
 
 
 
@@ -71,5 +94,23 @@ SOCIAL MEDIA LINKS
     .sideComponent{
         flex: 2;
     }
-}
 
+    .hugo-nathan{
+        position: absolute;
+        word-wrap: anywhere;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 300px;
+        font-weight: 400;
+        margin-left: 10px;
+    }
+
+    .huna{
+        color: var(--cream);
+    }
+
+    br{
+        display: contents;
+    }
+}

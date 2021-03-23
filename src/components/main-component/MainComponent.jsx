@@ -1,13 +1,13 @@
 import React from 'react'
 import './MainComponent-styles.css'
-import NavbarComponent from '../nav-bar/NavbarComponent'
+import NavbarComponent from './nav-bar/NavbarComponent'
 
 function MainComponent() {
     return (
         <div className='mainComponent'>
-            <NavbarComponent/>
+            <NavbarComponent />
         </div>
     )
 }
 
-export default MainComponent
+export default MainComponent;

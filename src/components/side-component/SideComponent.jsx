@@ -4,6 +4,9 @@ import './SideComponent-styles.css'
 function SideComponent() {
     return (
         <div className='sideComponent'>
+
+            <h1 className='hugo-nathan'><span className='huna'>HU</span>GO <br/> <span className='huna'>NA</span>THAN</h1>
+
             <p className='fullStackDev'>FULL STACK DEV</p>
 
             <div className='socialMedia'>
